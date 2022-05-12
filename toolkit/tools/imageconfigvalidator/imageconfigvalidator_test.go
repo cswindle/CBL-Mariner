@@ -14,10 +14,10 @@ import (
 	"github.com/stretchr/testify/assert"
 
 	"github.com/microsoft/CBL-Mariner/toolkit/tools/internal/jsonutils"
-	"github.com/microsoft/CBL-Mariner/toolkit/tools/internal/logger"
 	"github.com/microsoft/CBL-Mariner/toolkit/tools/pkg/image/configvalidator"
 	"github.com/microsoft/CBL-Mariner/toolkit/tools/pkg/imagegen/configuration"
 	"github.com/microsoft/CBL-Mariner/toolkit/tools/pkg/imagegen/installutils"
+	"github.com/microsoft/CBL-Mariner/toolkit/tools/pkg/logger"
 )
 
 func TestMain(m *testing.M) {

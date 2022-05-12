@@ -15,7 +15,6 @@ import (
 	"github.com/gdamore/tcell"
 	"github.com/rivo/tview"
 
-	"github.com/microsoft/CBL-Mariner/toolkit/tools/internal/logger"
 	"github.com/microsoft/CBL-Mariner/toolkit/tools/pkg/imagegen/attendedinstaller/speakuputils"
 	"github.com/microsoft/CBL-Mariner/toolkit/tools/pkg/imagegen/attendedinstaller/uitext"
 	"github.com/microsoft/CBL-Mariner/toolkit/tools/pkg/imagegen/attendedinstaller/views"
@@ -30,6 +29,7 @@ import (
 	"github.com/microsoft/CBL-Mariner/toolkit/tools/pkg/imagegen/attendedinstaller/views/progressview"
 	"github.com/microsoft/CBL-Mariner/toolkit/tools/pkg/imagegen/attendedinstaller/views/userview"
 	"github.com/microsoft/CBL-Mariner/toolkit/tools/pkg/imagegen/configuration"
+	"github.com/microsoft/CBL-Mariner/toolkit/tools/pkg/logger"
 )
 
 // UI constants.

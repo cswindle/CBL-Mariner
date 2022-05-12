@@ -11,8 +11,8 @@ import (
 	"gopkg.in/alecthomas/kingpin.v2"
 
 	"github.com/microsoft/CBL-Mariner/toolkit/tools/internal/exe"
-	"github.com/microsoft/CBL-Mariner/toolkit/tools/internal/logger"
 	"github.com/microsoft/CBL-Mariner/toolkit/tools/pkg/image/roast"
+	"github.com/microsoft/CBL-Mariner/toolkit/tools/pkg/logger"
 )
 
 const defaultWorkerCount = "10"
